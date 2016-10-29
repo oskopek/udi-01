@@ -1,0 +1,1 @@
+program quine;var st:string;q:char;i:integer;begin q:=chr(39);st:='program quine;var st:string;q:char;i:integer;begin q:=chr(39);st:=;for i:=1 to 66 do write(st[i]);write(q);write(st);write(q);for i := 67 to length(st) do write(st[i]);end.';for i:=1 to 66 do write(st[i]);write(q);write(st);write(q);for i := 67 to length(st) do write(st[i]);end.
